@@ -105,7 +105,7 @@
    * color-3(#FEF5E4)
    */
 	--color-1: hsla(35, 87%, 49%, 1);
-	--color-2: hsla(127, 8%, 22%, 1);
+	--color-2: hsla(214.43, 93.62%, 36.86%, 1);
 	--color-3: hsla(39, 93%, 95%, 1);
 
   /* theme color variations
@@ -117,11 +117,11 @@
 	--color-1-darker               : hsla(35, 87%, 29%, 1);
 	--color-1-darkest              : hsla(35, 87%, 10%, 1);
 
-	--color-2-lightest             : hsla(127, 8%, 55%, 1);
-	--color-2-lighter              : hsla(127, 8%, 42%, 1);
-	--color-2-light                : hsla(127, 8%, 32%, 1);
-	--color-2-dark                 : hsla(127, 8%, 14%, 1);
-	--color-2-darker               : hsla(127, 8%, 2%, 1);
+	--color-2-lightest             : hsla(214.43, 93.62%, 55%, 1)  /**hsla(127, 8%, 55%, 1)**/ ;
+	--color-2-lighter              : /**hsla(127, 8%, 42%, 1)**/ hsla(214.43, 93.62%, 42%, 1);
+	--color-2-light                : /**hsla(127, 8%, 32%, 1)**/ hsla(214.43, 93.62%, 32%, 1);
+	--color-2-dark                 : /**hsla(127, 8%, 14%, 1)**/ hsla(214.43, 93.62%, 14%, 1);
+	--color-2-darker               : /**hsla(127, 8%, 2%, 1)**/ hsla(214.43, 93.62%, 2%, 1);
 	
 	--color-3-light                : hsla(39, 93%, 100%, 1);
 	--color-3-dark                 : hsla(39, 93%, 85%, 1);
@@ -3580,7 +3580,7 @@ td:last-child {
 	--content-min-height    : calc(var(--vspace-1) * 27);
 	z-index                 : 2;
 	background-color        : var(--color-2-dark);
-	background              : linear-gradient(20deg, hsl(130deg, 8%, 14%) 40%, hsl(0deg, 0%, 13%) 100%);
+	background              : linear-gradient(20deg, hsl(214deg, 93%, 30%) 40%, hsl(0deg, 0%, 13%) 100%);
 	width                   : 100%;
 	height                  : max(var(--content-min-height), 100vh);
 	overflow                : hidden;
